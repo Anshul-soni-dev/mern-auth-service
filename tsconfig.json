@@ -23,7 +23,6 @@
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
 
-
         // Stricter Typechecking Options
         "noUncheckedIndexedAccess": true,
         "exactOptionalPropertyTypes": true,
