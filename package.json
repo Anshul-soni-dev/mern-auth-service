@@ -4,6 +4,9 @@
   "description": "the user management service",
   "main": "index.js",
   "scripts": {
+    "format:fix": "prettier . --write",
+    "format:check": "prettier . --check",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +21,7 @@
   "homepage": "https://github.com/Anshul-soni-dev/mern-auth-service#readme",
   "devDependencies": {
     "@types/node": "^25.0.3",
+    "prettier": "3.7.4",
     "typescript": "^5.9.3"
   }
 }
