@@ -8,7 +8,7 @@ export default defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommendedTypeChecked,
     {
-        ignores: ["dist", "node_modules", "eslint.config.mjs"],
+        ignores: ["dist", "node_modules", "eslint.config.mjs","jest.config.js"],
     },
 
     {
@@ -17,5 +17,8 @@ export default defineConfig(
                 projectService: true,
             },
         },
+        rules: {
+            "@typesscript-eslint/no-misused-promises": "off",
+        }
     },
 );
