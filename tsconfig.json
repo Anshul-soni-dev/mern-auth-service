@@ -1,36 +1,33 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist",
+    "compilerOptions": {
+        "outDir": "./dist",
 
-    "module": "commonjs",
-    "target": "esnext",
+        "module": "commonjs",
+        "target": "esnext",
 
-    "types": ["node", "jest"],
-    "lib": ["ES6"],
+        "types": ["node", "jest"],
+        "lib": ["ES6"],
 
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
 
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
 
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
 
-    "strict": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": false,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
+        "strict": true,
+        "jsx": "react-jsx",
+        "verbatimModuleSyntax": false,
+        "isolatedModules": true,
+        "noUncheckedSideEffectImports": true,
+        "moduleDetection": "force",
+        "skipLibCheck": true,
 
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
-  },
-  "include": [
-    "src/**/*.ts",
-    "tests/**/*.ts"
-  ]
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": ["src/**/*.ts", "tests/**/*.ts"]
 }
